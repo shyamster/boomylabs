@@ -1,0 +1,78 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Arial", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #DDD;
+	letter-spacing: -0.05em;
+        background-color:#050505;
+}
+
+h1, h2 {
+	font-size: 40px;
+	font-weight: 300;
+	margin-bottom: 8px;
+	white-space: nowrap;
+	letter-spacing: -.05em;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+a {
+	color: #ff5fbd;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #b5f100;
+}
+
+h2 a:hover {
+	text-decoration: underline;
+}
+
+p {
+  font-weight: 200;
+  letter-spacing: normal;
+  margin-bottom: 10px;
+}
+
+.main {
+	width: 380px;
+	float: right;
+	text-align: left;
+}
+
+.content {
+    background: url(../images/background.png) no-repeat 300px 0 #050505;
+    margin: auto;
+    min-height: 600px;
+    padding-right: 225px;
+    padding-top: 25px;
+    text-align: right;
+    width: 745px;
+}
+
+
+.logo {
+	background: url(../images/logo.png) no-repeat top left transparent;
+	height: 150px;
+	width: 685px;
+	margin: 55px 0 0 45px;
+}
+
+.footer {
+	background: url("../images/footer-bgd.png") repeat-x scroll left top #000000;
+  color: #848484;
+  font-style: italic;
+  height: 150px;
+  letter-spacing: 0;
+  padding: 10px;
+  text-align: center;
+}
